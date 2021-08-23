@@ -1,0 +1,41 @@
+body {
+    font-family: 'Open Sans';
+    font-size: 12px;
+    line-height: 1;
+}
+
+.dark {
+    background-color: #000;
+}
+
+a {
+    text-decoration: none;
+    color: #111;
+
+    &:hover {
+        color: #000;
+        text-decoration: none;
+    }   
+}
+
+.margin-top-content {
+    margin-top: 100px;
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: 64px;
+}
+
+.headline {
+    padding-top: 70px;
+    background: linear-gradient(-45deg, #000, #202020, #000, #202020);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    padding-bottom: 30px;
+    
+    h1 {
+        color: #ccc;
+        margin-top: 30px;
+    }
+}
