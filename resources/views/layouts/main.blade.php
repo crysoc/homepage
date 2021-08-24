@@ -9,7 +9,7 @@
 
     <title>@yield('meta-title')</title>
 
-    <meta name="description" value="@yield('meta-description')" />
+    <meta name="description" content="@yield('meta-description')" />
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
