@@ -201,7 +201,7 @@ h1 {
   padding: 0 25px;
   display: flex;
   align-items: center;
-  font-size: 14px;
+  font-size: 20px;
   height: 70px;
   transition: width 0.5s;
   position: relative;
@@ -209,6 +209,11 @@ h1 {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+}
+@media (min-width: 768px) {
+  .navigation__link {
+    font-size: 14px;
+  }
 }
 .navigation__link:hover {
   color: #fff;
@@ -233,15 +238,22 @@ h1 {
   background: #fff;
   height: 2px;
 }
-.navigation__link:hover:after {
-  width: 100%;
+@media (min-width: 1200px) {
+  .navigation__link:hover:after {
+    width: 100%;
+  }
 }
 .navigation__link--vip {
   font-family: "Roboto";
-  font-size: 20px;
+  font-size: 24px;
   color: #fff;
   letter-spacing: 2px;
   text-shadow: 0 0 7px #d48a00, 0 0 10px #d48a00, 0 0 21px #d48a00, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+}
+@media (min-width: 768px) {
+  .navigation__link--vip {
+    font-size: 20px;
+  }
 }
 
 .navigation-wrapper {

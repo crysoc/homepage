@@ -41,11 +41,15 @@
         padding: 0 25px;
         display: flex;
         align-items: center;
-        font-size: 14px;
+        font-size: 20px;
         height: 70px;
         transition: width .5s;
         position: relative;
         user-select: none;
+
+        @include tablet {
+            font-size: 14px;
+        }
 
         &:hover {
             color: #fff;
@@ -75,12 +79,14 @@
         }
 
         &:hover:after {
-            width: 100%;
+            @include desktop {
+                width: 100%;
+            }
         }
 
         &--vip {
             font-family: 'Roboto';
-            font-size: 20px;
+            font-size: 24px;
             color: #fff;
             letter-spacing: 2px;
             text-shadow:
@@ -92,6 +98,10 @@
                 0 0 92px #0fa,
                 0 0 102px #0fa,
                 0 0 151px #0fa;
+
+            @include tablet {
+                font-size: 20px;
+            }
         }
     }
 }
