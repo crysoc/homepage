@@ -10,4 +10,6 @@ $(window).on('scroll', function () {
 
 $('.js-hamburger').on('click', function() {
     $(this).toggleClass('is-active');
+    $('.js-navigation').toggleClass('is-active');
+    $('html, body').toggleClass('no-scroll');
 });

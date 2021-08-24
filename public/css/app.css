@@ -7,6 +7,10 @@ body {
   margin: 0;
 }
 
+html.no-scroll, body.no-scroll {
+  overflow: hidden;
+}
+
 div {
   box-sizing: border-box;
 }
@@ -113,8 +117,26 @@ h1 {
     display: flex;
   }
 }
+.navigation.is-active {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  z-index: 50;
+  padding-top: 100px;
+  text-align: center;
+  padding-left: 0;
+}
+.navigation.is-active .navigation__link {
+  justify-content: center;
+}
 .navigation__burger {
   display: block;
+  z-index: 100;
 }
 @media (min-width: 768px) {
   .navigation__burger {

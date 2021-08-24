@@ -28,7 +28,7 @@
                         </a>
                     </div>
 
-                    <ul class="navigation">
+                    <ul class="navigation js-navigation">
                         <li class="navigation__item">
                             <a class="navigation__link navigation__link--vip" href="#">VIP</a>
                         </li>

@@ -5,6 +5,12 @@ body {
     margin: 0;
 }
 
+html, body {
+    &.no-scroll {
+        overflow: hidden;
+    }
+}
+
 div {
     box-sizing: border-box;
 }
