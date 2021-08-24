@@ -1,5 +1,7 @@
 @extends('layouts.main')
 
+@section('meta-title', 'CRYPTO SOCIETY - No. 1 Crypto Community')
+@section('meta-title', 'Learn to invest in Crypto in a familiar environment without any pressure. Join our Telegram.')
 @section('wrapper-class', 'homepage')
 
 @section('content')
@@ -18,6 +20,7 @@
             </div>
         </div>
     </div>
+    <canvas id="scene" class="homepage-teaser-bwt__canvas"></canvas>
 </div>
 
 <div class="bg-wrapper homepage-teaser-social">
@@ -82,14 +85,6 @@
 </div>
 
 <div class="bg-wrapper homepage-teaser-benefits">
-    <!--
-    <video class="lazy" autoplay muted loop playsinline>
-        <source data-src="{{ url('/images/1017335245-preview.mp4') }}" type="video/mp4" />
-    </video>
-
-    <div class="layer"></div>
--->
-
     <div class="container">
         <div class="homepage-teaser-benefits__carts">
             <div class="homepage-teaser-benefits__cart">

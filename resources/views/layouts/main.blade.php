@@ -7,7 +7,9 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>@yield('meta-title')</title>
+
+    <meta name="description" value="@yield('meta-description')" />
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
