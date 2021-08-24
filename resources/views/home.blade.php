@@ -57,7 +57,7 @@
     <div class="container">
         <div class="homepage-teaser-network__contentwrapper">
             <div class="homepage-teaser-network__content">
-                <h3><strong>Our</strong> community</h3>
+                <h3><strong>Our</strong><br>Community</h3>
                 <ul>
                     <li>More than 3.000 active member</li>
                     <li>Regular AMAs in telegram</li>
