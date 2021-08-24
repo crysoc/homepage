@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('meta-title', 'CRYPTO SOCIETY - No. 1 Crypto Community')
-@section('meta-title', 'Learn to invest in Crypto in a familiar environment without any pressure. Join our Telegram.')
+@section('meta-description', 'Learn to invest in Crypto in a familiar environment without any pressure. Join our Telegram.')
 @section('wrapper-class', 'homepage')
 
 @section('content')
