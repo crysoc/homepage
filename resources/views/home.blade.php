@@ -5,17 +5,16 @@
 @section('content')
 <div class="bg-wrapper homepage-teaser-bwt">
     <div class="container">
-        <div class="row flex-column">
+        <div class="homepage-teaser-bwt__content">
             <div class="homepage-teaser-bwt__image">
                 <img class="homepage-teaser-bwt__logo" alt="crypto society" src="{{ url('/images/logo-crypto-society.png') }}">
             </div>
 
             <div class="homepage-teaser-bwt__typewriter">
                 <h3 class="typewriter-text">#1 Crypto Community</h3>
-
-                <div class="text-center">
-                    <i class="bi bi-telegram homepage-teaser-bwt__telegram"></i>
-                </div>
+            </div>
+            <div class="text-center">
+                <i class="bi bi-telegram homepage-teaser-bwt__telegram"></i>
             </div>
         </div>
     </div>

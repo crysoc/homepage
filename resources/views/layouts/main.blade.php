@@ -42,6 +42,14 @@
                             <a class="navigation__link" href="#">Investment</a>
                         </li>
                     </ul>
+
+                    <div class="navigation__burger">
+                        <button class="hamburger hamburger--elastic js-hamburger" type="button">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
                 </header>
             </div>
         </div>

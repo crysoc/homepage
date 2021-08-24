@@ -5,6 +5,10 @@ body {
     margin: 0;
 }
 
+div {
+    box-sizing: border-box;
+}
+
 .dark {
     background-color: #000;
 }
@@ -42,8 +46,14 @@ h1 {
 }
 
 .container {
-    width: 1280px;
+    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 0 15px;
+
+    @include desktop {
+        padding: 0;
+    }
 }
 
 .text-center {

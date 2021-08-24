@@ -7,3 +7,7 @@ $(window).on('scroll', function () {
         $('.js-navigation-wrapper').removeClass('navigation-wrapper--active');
     }
 });
+
+$('.js-hamburger').on('click', function() {
+    $(this).toggleClass('is-active');
+});

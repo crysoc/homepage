@@ -1,8 +1,19 @@
 .navigation {
-    display: flex;
+    display: none;
     flex-direction: row;
     list-style-type: none;
     margin: 0;
+
+    @include tablet {
+        display: flex;
+    }
+
+    &__burger {
+        display: block;
+        @include tablet {
+            display: none;
+        }
+    }
 
     &__link {
         color: #fff;
@@ -72,7 +83,6 @@
     background-color: transparent;
     transition: background-color 0.3s linear;
     z-index: 1000;
-    
 }
 
 .navigation-wrapper--active {
