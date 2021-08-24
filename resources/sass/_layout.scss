@@ -3,6 +3,7 @@ body {
     font-size: 12px;
     line-height: 1;
     margin: 0;
+    background-color: #111;
 }
 
 html, body {
@@ -66,4 +67,8 @@ h1 {
 
 .text-center {
     text-align: center;
+}
+
+main {
+    background-color: #fff;
 }
