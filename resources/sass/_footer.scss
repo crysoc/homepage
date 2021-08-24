@@ -57,16 +57,16 @@
     &__links {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
-        margin-top: 30px;
+        max-width: 600px;
+        margin: 30px auto 0;
 
         a {
             text-decoration: none;
             color: rgb(189, 189, 189);
             font-size: 14px;
             transition: color 0.3s ease-out;
-            margin: 0 20px;
 
             &:hover {
                 color: #fff;
