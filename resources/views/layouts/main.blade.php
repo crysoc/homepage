@@ -11,6 +11,8 @@
 
     <meta name="description" content="@yield('meta-description')" />
 
+    <link rel="icon" type="image/png" href="{{ url('/images/favicon.png') }}">
+
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
     <script src="{{ asset('js/app.js') }}" defer></script>

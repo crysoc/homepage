@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('meta-title', 'CRYPTO SOCIETY - No. 1 Crypto Community')
-@section('meta-description', 'Learn to invest in Crypto in a familiar environment without any pressure. Join our Telegram.')
+@section('meta-description', 'Learn to invest in Crypto within a familiar environment and without any pressure. Join us on Telegram and ask us all the questions you have.')
 @section('wrapper-class', 'homepage')
 
 @section('content')
@@ -20,7 +20,6 @@
             </div>
         </div>
     </div>
-    <canvas id="scene" class="homepage-teaser-bwt__canvas"></canvas>
 </div>
 
 <div class="bg-wrapper homepage-teaser-social">
