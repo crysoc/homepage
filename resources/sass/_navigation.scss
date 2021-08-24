@@ -66,8 +66,12 @@
 }
 
 .navigation-wrapper {
+    position: fixed;
+    top: 0px;
+    width: 100%;
     background-color: transparent;
     transition: background-color 0.3s linear;
+    z-index: 1000;
 }
 
 .navigation-wrapper--active {

@@ -56,7 +56,7 @@
 
 <div class="bg-wrapper homepage-teaser-network">
     <div class="container">
-        <div class="row justify-content-between">
+        <div class="homepage-teaser-network__contentwrapper">
             <div class="homepage-teaser-network__content">
                 <h3><strong>Our</strong> community</h3>
                 <ul>
@@ -83,11 +83,13 @@
 </div>
 
 <div class="bg-wrapper homepage-teaser-benefits">
+    <!--
     <video class="lazy" autoplay muted loop playsinline>
         <source data-src="{{ url('/images/1017335245-preview.mp4') }}" type="video/mp4" />
     </video>
 
     <div class="layer"></div>
+-->
 
     <div class="container">
         <div class="homepage-teaser-benefits__carts">

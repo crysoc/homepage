@@ -8,9 +8,11 @@ use Illuminate\Support\Facades\Http;
 class PageController extends Controller
 {
     public function amas() {
-        /*$url = 'https://crypto-society.com/wp-json/wp/v2/posts';
+        $url = 'https://wordpress.crypto-society.com/wordpress/wp-json/wp/v2/posts';
         $response = Http::get($url);
-        dd($response->body());*/
+        $bodyJson = $response->body();
+        $bodyArr = json_decode($bodyJson);
+        dd($bodyArr);
 
         return view('pages/amas');
     }

@@ -2,6 +2,7 @@ body {
     font-family: 'Open Sans';
     font-size: 12px;
     line-height: 1;
+    margin: 0;
 }
 
 .dark {
@@ -38,4 +39,13 @@ h1 {
         color: #ccc;
         margin-top: 30px;
     }
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
 }

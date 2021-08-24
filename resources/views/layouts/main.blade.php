@@ -10,6 +10,7 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
     <script src="{{ asset('js/app.js') }}" defer></script>
 
     <!-- Styles -->
@@ -18,7 +19,7 @@
 <body>
     <div id="app" class="@yield('wrapper-class')">
 
-        <div class="navigation-wrapper fixed-top js-navigation-wrapper">
+        <div class="navigation-wrapper js-navigation-wrapper">
             <div class="container">
                 <header class="header">
                     <div class="header__logo-wrapper">
