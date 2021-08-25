@@ -72,3 +72,22 @@ h1 {
 main {
     background-color: #fff;
 }
+
+.wave {
+    width: 100%;
+    overflow: hidden;
+    &--network {
+        margin-top: 50px;
+    }
+
+    &__svg {
+        width: 200%;
+        @include tablet {
+            width: 100%;
+        }
+        &--network {
+            fill: #000;
+            height: 60px;
+        }
+    }
+}

@@ -123,6 +123,26 @@ main {
   background-color: #fff;
 }
 
+.wave {
+  width: 100%;
+  overflow: hidden;
+}
+.wave--network {
+  margin-top: 50px;
+}
+.wave__svg {
+  width: 200%;
+}
+@media (min-width: 768px) {
+  .wave__svg {
+    width: 100%;
+  }
+}
+.wave__svg--network {
+  fill: #000;
+  height: 60px;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -680,7 +700,7 @@ main {
 
 .homepage-teaser-network {
   background-color: #000;
-  margin-top: 20px;
+  margin-top: -5px;
   color: #cfcecf;
   box-shadow: 0px 0px 12px 1px #616060;
 }
@@ -713,6 +733,11 @@ main {
 }
 .homepage-teaser-network__content {
   z-index: 10;
+}
+@media (min-width: 768px) {
+  .homepage-teaser-network__content {
+    margin-left: 100px;
+  }
 }
 .homepage-teaser-network__content ul {
   margin-top: 20px;

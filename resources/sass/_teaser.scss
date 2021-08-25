@@ -103,7 +103,7 @@
 
 .homepage-teaser-network {
     background-color: #000;
-    margin-top: 20px;
+    margin-top: -5px;
     color: #cfcecf;
     box-shadow: 0px 0px 12px 1px #616060;
 
@@ -135,6 +135,10 @@
 
     &__content {
         z-index: 10;
+        @include tablet {
+            margin-left: 100px;
+        }
+
         ul {
             margin-top: 20px;
             list-style-type: disc;
