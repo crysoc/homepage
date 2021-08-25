@@ -92,6 +92,11 @@
 </div>
 
 <div class="bg-wrapper homepage-teaser-benefits">
+    <div class="lines">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
     <div class="container">
         <div class="homepage-teaser-benefits__carts">
             <div class="homepage-teaser-benefits__cart">
