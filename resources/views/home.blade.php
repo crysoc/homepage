@@ -102,14 +102,17 @@
             <div class="homepage-teaser-benefits__cart">
                 <div class="homepage-teaser-benefits__number">1</div>
                 <h3>Learn</h3>
+                <p class="homepage-teaser-benefits__text">Ask us any question you have and you will always get an answer. Our team have many years of knowledge to share with you but we also want to learn from you!</p>
             </div>
             <div class="homepage-teaser-benefits__cart">
                 <div class="homepage-teaser-benefits__number">2</div>
                 <h3>Apply</h3>
+                <p class="homepage-teaser-benefits__text">If you follow us for some weeks or even days you will see that you are going to understand the world of crypto and you will be able to apply your knowledge.</p>
             </div>
             <div class="homepage-teaser-benefits__cart">
                 <div class="homepage-teaser-benefits__number">3</div>
-                <h3>Invest</h3>
+                <h3>Succeed</h3>
+                <p class="homepage-teaser-benefits__text">There will be ups and downs on your way. Learn from the downs and earn from the ups. Doesn't matter which way it goes we go together. Keep us updated and we will support you the best way we can.</p>
             </div>
         </div>
     </div>
