@@ -16,7 +16,9 @@
                 <h3 class="typewriter-text">#1 Crypto Community</h3>
             </div>
             <div class="text-center">
-                <i class="bi bi-telegram homepage-teaser-bwt__telegram"></i>
+                <a href="https://t.me/cryptosocietyy" target="_blank">
+                    <i class="bi bi-telegram homepage-teaser-bwt__telegram"></i>
+                </a>
             </div>
         </div>
     </div>
@@ -30,22 +32,22 @@
 
             <div class="homepage-teaser-social__iconlist">
                 
-                <a href="#">
+                <a href="https://t.me/cryptosocietyy" target="_blank">
                     <i class="bi bi-telegram homepage-teaser-social__icon homepage-teaser-social__icon--telegram"></i>
                     <h4>Telegram</h4>
                 </a>
 
-                <a href="#">
+                <a href="https://twitter.com/cryptosocietytg" target="_blank">
                     <i class="bi bi-twitter homepage-teaser-social__icon homepage-teaser-social__icon--twitter"></i>
                     <h4>Twitter</h4>
                 </a>
 
-                <a href="#">
+                <a href="https://www.youtube.com/channel/UChGgsN41q7q9hiXCg8GRMvw" target="_blank">
                     <i class="bi bi-youtube homepage-teaser-social__icon homepage-teaser-social__icon--youtube"></i>
                     <h4>YouTube</h4>
                 </a>
 
-                <a href="#">
+                <a href="https://www.facebook.com/CryptoSocietyLtd/" target="_blank">
                     <i class="bi bi-facebook homepage-teaser-social__icon homepage-teaser-social__icon--facebook"></i>
                     <h4>Facebook</h4>
                 </a>

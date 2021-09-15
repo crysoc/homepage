@@ -39,12 +39,6 @@
                         <li class="navigation__item">
                             <a class="navigation__link" href="/amas">AMAs</a>
                         </li>
-                        <li class="navigation__item">
-                            <a class="navigation__link" href="#">Consulting</a>
-                        </li>
-                        <li class="navigation__item">
-                            <a class="navigation__link" href="#">Investment</a>
-                        </li>
                     </ul>
 
                     <div class="navigation__burger">
@@ -65,19 +59,19 @@
         <footer class="footer">
             <div class="container">
                 <div class="footer__iconlist">
-                    <a href="#">
+                    <a href="https://t.me/cryptosocietyy" target="_blank">
                         <i class="bi bi-telegram footer__icon footer__icon--telegram"></i>
                     </a>
 
-                    <a href="#">
+                    <a href="https://twitter.com/cryptosocietytg" target="_blank">
                         <i class="bi bi-twitter footer__icon footer__icon--twitter"></i>
                     </a>
 
-                    <a href="#">
+                    <a href="https://www.youtube.com/channel/UChGgsN41q7q9hiXCg8GRMvw" target="_blank">
                         <i class="bi bi-youtube footer__icon footer__icon--youtube"></i>
                     </a>
 
-                    <a href="#">
+                    <a href="https://www.facebook.com/CryptoSocietyLtd/" target="_blank">
                         <i class="bi bi-facebook footer__icon footer__icon--facebook"></i>
                     </a>
                 </div>
@@ -85,9 +79,7 @@
                 <div class="footer__links">
                     <a href="#">About us</a>
                     <a href="#">Contact</a>
-                    <a href="#">Imprint</a>
                     <a href="#">AMAs</a>
-                    <a href="#">Others</a>
                 </div>
 
                 <div class="footer__copyright">
